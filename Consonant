@@ -1,0 +1,5 @@
+def is_consonant(char):
+    if char.isalpha() and char.lower() not in 'aeiou':
+        print(f"{char} is a consonant")
+    else:
+        print(f"{char} is not a consonant")
