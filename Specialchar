@@ -1,0 +1,5 @@
+def is_special_character(char):
+    if not char.isalnum():
+        print(f"{char} is a special character")
+    else:
+        print(f"{char} is not a special character")
