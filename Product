@@ -1,0 +1,5 @@
+def product_of_digits(number):
+    product = 1
+    for digit in str(number):
+        product *= int(digit)
+    print(f"Product of digits: {product}")
